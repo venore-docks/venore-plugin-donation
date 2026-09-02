@@ -2,7 +2,7 @@ import { getDonationSettingsHandler } from "../features/get-donation-settings/ha
 import { buildDonationPixCodeHandler } from "../features/build-donation-pix-code/handler";
 import { DonationWidget } from "../components/donation-widget";
 import type { BlockRendererProps } from "@venore/plugin-sdk";
-import { hasRichTextContent, renderRichTextContent, RICH_TEXT_INLINE_CLASSES } from "@venore/plugin-sdk";
+import { hasRichTextContent, renderRichTextContent, RICH_TEXT_INLINE_CLASSES } from "@venore/plugin-sdk/page-builder";
 
 function readString(data: Record<string, unknown>, key: string): string | undefined {
   const value = data[key];

@@ -1,7 +1,7 @@
 import { AdminAccessDenied } from "@venore/plugin-sdk/ui";
 import { AdminPageHeader } from "@venore/plugin-sdk/ui";
 import { getDonationSettings } from "../../index";
-import { getPluginAdminPageData } from "@venore/plugin-sdk";
+import { getPluginAdminPageData } from "@venore/plugin-sdk/admin";
 import { DonationSettingsForm } from "./donation-settings-form";
 
 export default async function DonationsAdminPage() {
