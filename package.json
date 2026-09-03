@@ -1,0 +1,17 @@
+{
+  "name": "@venore/plugin-donations",
+  "version": "1.0.0",
+  "description": "Doação via PIX com chave estática (plugin do Venore Docks).",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.ts",
+    "./manifest": "./manifest.ts",
+    "./route-table": "./routes/route-table.ts",
+    "./contributions": "./contributions.ts",
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": { "next": ">=16", "react": ">=19" },
+  "dependencies": { "qrcode": "^1.5.4" },
+  "devDependencies": { "@types/qrcode": "^1.5.6" }
+}
